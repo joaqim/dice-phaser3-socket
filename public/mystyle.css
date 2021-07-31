@@ -1,18 +1,30 @@
 html,
 body {
-        padding: 0;
-        height: 100%;
-        width: 100%;
-        background-color: rgb(31, 28, 28);
-        overflow: hidden;
-    }
+    font-smooth: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(31, 28, 28);
+    overflow: hidden;
+
+}
 .centered {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding: 0;
-        height: 100%;
-        background-color: rgb(31, 28, 28);
-    }
-    
+    display: block;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centered-old {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    height: 100%;
+    background-color: rgb(31, 28, 28);
+}
+
